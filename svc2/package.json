@@ -1,0 +1,18 @@
+{
+  "name": "svc2",
+  "version": "1.0.0",
+  "description": "Demo tracing",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jesse Dearing",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.14.0",
+    "zipkin": "0.5.1",
+    "zipkin-context-cls": "0.2.1",
+    "zipkin-instrumentation-express": "0.5.1",
+    "zipkin-transport-http": "0.5.1"
+  }
+}
